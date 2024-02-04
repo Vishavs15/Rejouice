@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Icon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>HOME | REJOUICE</title>
+</head>
+
+<body>
+    <!-- we didn't give main div height beacause of locomotive scroll js or locomotive scroll css  -->
+    <div id="main">
+        <div class="page1">
+            <!-- <div class="play">
+                <h5>PLAY REEL</h5>
+            </div> -->
+            <!-- <video src="https://prismic-io.s3.amazonaws.com/rejouice/bfeed409-955b-4332-8c9a-a7ed304c0e85_RJ-2.0-Video+background+.mp4"></video> -->
+            <video autoplay muted loop src="New folder/background Video.mp4" muted></video>
+            <div id="page1-content">
+                <nav>
+                    <h3>The Venture Agency.</h3>
+                    <h4>Menu</h4>
+                </nav>
+                <h1><span>r</span><span>e</span><span>j</span><span>o</span><span>u</span><span>i</span><span>c</span><span>e</span>
+                </h1>
+            </div>
+        </div>
+        <div class="page2">
+
+            <div class="text">
+
+                <div class="text1">
+                    <h2>
+                        Full-service creative Agency.
+                    </h2>
+                    <h2>
+                        two engagement models.
+                    </h2>
+                </div>
+                <div class="text2">
+                    <h2>
+                        Paris & San Diego
+                    </h2>
+                </div>
+            </div>
+            <hr>
+            <div class="text3">
+                <p class="pare">We are a digital brand accelerator curating dream teams for dream clients. We design
+                    develop, and scale market-defining brands by unlocking their hiddden potential. choose full cash
+                    compensation or offset up to 50% of our fees for equity in your company. your vision, your decision.
+                </p>
+            </div>
+        </div>
+        <div class="page3">
+            <div class="page3-top">
+                <h4>Agency & venture <span>Models</span></h4>
+                <h2>Explore Our Services</h2>
+                <h2>& engagement models</h2>
+            </div>
+            <div class="page3-element">
+                <div class="box">
+                    <img src="./Image/Img01.jpg" alt="#">
+                    <video autoplay muted loop src="./Video/V01.mp4"></video>
+                </div>
+                <div class="box">
+                    <img src="./Image/Img02.jpg" alt="#">
+                    <video autoplay muted loop src="./Video/V02.mp4"></video>
+                </div>
+                <div class="box">
+                    <img src="./Image/Img03.jpg" alt="#">
+                    <video autoplay muted loop src="./Video/V03.mp4"></video>
+                </div>
+            </div>
+        </div>
+        <div class="page4">
+            <video autoplay loop muted src="https://rejouice.com/assets/videos/RJ-BALL-BLUE-ORANGE-scaled.webm"></video>
+            <svg class="abs tl:0 fit transform rotate:-90deg" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.25" fill="none" class="o:0.3 dasharray:302 dashoffset:604 (.in-view):dashoffset:400 (.in-view):tween:all,2.8s,easeOutSlow "></circle>
+                <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.25" fill="none" class="dasharray:302 dashoffset:302 (.in-view):dashoffset:100 (.in-view):tween:all,2.8s,easeOutSlow "></circle>
+            </svg>
+            <svg class="abs tl:0 fit transform rotate:0 (.in-view):rotate:237deg (.in-view):tween:all,2.8s,easeOutSlow " viewBox="0 0 100 100">
+                <circle cx="50" cy="1" r="1" fill="#fff"></circle>
+            </svg>
+        </div>
+        <div class="page5">
+            <div class="page5-top">
+                <h1>Get in touch.</h1>
+            </div>
+            <div class="swiperdiv">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">Slide 1</div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div>
+                      <div class="swiper-slide">Slide 5</div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- locomotive-scroll.js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- gsap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
